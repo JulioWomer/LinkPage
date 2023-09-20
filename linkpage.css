@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, #400576, #680052, #720031, #6d0418, #602405);
+      
+    color: rgb(160, 235, 242);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.tile{
+    width: 100%;
+    height: 56px;
+    
+background-color: rgb(183, 75, 202);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.4, .82, 1.41) 0.2;
+    transform: scale(1.02);
+}
+
+
+.tile-share-button{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+.tile-share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.image-container{
+    height: 140px;
+    width: 140px;
+    border-radius: 78px;
+    overflow: hidden;
+}
+
+.image-container img{
+    width:100%;
+    height: 100%;
+}
+
+.icon{
+    margin: 4px 12px;
+    width: 44px;
+    height: 44px;
+}
